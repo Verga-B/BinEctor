@@ -1,0 +1,185 @@
+/* body e base */
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: green;
+    background-color: rgb(49, 49, 49);
+}
+
+/* NAVIGAZIONE & HEADER */
+
+nav{
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title_nav{
+    margin: 0px;
+}
+
+.title_nav_img{
+    height: 100px;
+    margin: 0px 30px;
+}
+
+.simbolo_nav{
+    margin: auto 15px;
+}
+
+.tasti_nav{
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 8%;
+}
+
+.a_nav{
+    font-size: 25px;
+    color: green;
+    font-weight: 700;
+    margin: 0px 30px;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px white;
+    position: relative;
+}
+
+.a_nav::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    transform: scaleX(0);
+    transition: transform 350ms;
+}
+
+.a_nav:hover::after{
+    transform: scaleX(1);
+}
+
+.simbolo_nav{
+    width: 10px;
+}
+
+/* DIVISIONI */
+
+.divisone_nav{
+    background-color: green;
+    width: 100%;
+    height: 3px;
+    box-shadow: 0px 0px 5px green;
+}
+
+.divisore_verde{
+    background-color: green;
+    width: 100%;
+    height: 1px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.divis2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 3px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    border-radius: 60%;
+    transform: scaleX(0.7);
+}
+
+.divis3{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 3px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    border-radius: 60%;
+    transform: scaleX(0.25);
+}
+
+/* TITOLI */
+
+h2{
+    margin: 30px;
+}
+.progetto{
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    margin: 30px;
+}
+.foto{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* SEZIONI */
+
+
+p{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: 30px auto;
+}
+
+.p_desc_prog{
+    width: 60%;
+}
+
+.p_desc_foto{
+    width: 40%;
+}
+
+.sez_foto{
+    display: flex;
+}
+
+.es_foto{
+    height: 650px;
+    box-shadow: 0px 0px 5px black;
+    margin: auto;
+}
+.simbolo{
+    display: flex;
+    height: 120px;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(102, 102, 102);
+    color: rgb(194, 194, 194);
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+footer:hover{
+    cursor: help;
+}
+
+/* MEDIA QUERRY */
+
+@media screen and (max-width: 830px) {
+    .simbolo{
+        display: none;
+    }
+    .es_foto{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .es_foto{
+        height: 350px;
+    }
+}
