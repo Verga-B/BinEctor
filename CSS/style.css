@@ -23,14 +23,15 @@ nav{
 
 .title_nav_img{
     height: 100px;
-    margin: 0px 30px;
-}
-
-.simbolo_nav{
-    margin: auto 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8%;
+    margin-right: auto;
 }
 
 .tasti_nav{
+    display: flex;
+    flex-wrap: wrap;
     width: fit-content;
     margin-top: auto;
     margin-bottom: auto;
@@ -42,7 +43,8 @@ nav{
     font-size: 25px;
     color: green;
     font-weight: 700;
-    margin: 0px 30px;
+    margin: auto;
+    margin-left: 20px;
     text-decoration: none;
     text-shadow: 0px 0px 1px white;
     position: relative;
@@ -153,6 +155,49 @@ p{
     margin: auto;
 }
 
+/* MAPPA */
+.sez_mappa{
+    display: flex;
+}
+
+#map {
+    margin: 5% auto;
+    width: 700px;
+    height: 500px;
+}
+
+/* Nuvola Marker  */
+
+.foto_marker{
+    width: 200px;
+    height: 250px;
+}
+
+.testo_marker{
+    font-size: larger;
+    color: black;
+    margin: 5px;
+}
+
+/* Ingrandimento immagine */
+#fullbox{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    display:none;
+    background: transparent url('../img/bg.png') repeat left top;
+    background: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    z-index: 10;
+    cursor: pointer;
+}
+.imgfullbox{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    }
 /* FOOTER */
 
 footer{
@@ -163,6 +208,7 @@ footer{
     text-align: center;
     margin-top: 25px;
 }
+
 footer:hover{
     cursor: help;
 }
@@ -181,5 +227,48 @@ footer:hover{
 @media screen and (max-width: 360px) {
     .es_foto{
         height: 350px;
+    }
+}
+
+/* BARRA NAVIGAZIONE */
+@media screen and (max-width: 660px) {
+    .tasti_nav{
+        margin: auto;
+    }
+    .title_nav_img{
+        margin: 0px 45px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .tasti_nav{
+        margin: auto;
+    }
+    .title_nav_img{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 540px) {
+    .tasti_nav{
+        margin: 12px auto;
+    }
+    .title_nav_img{
+        margin: 0px 135px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .tasti_nav{
+        margin: 12px auto;
+    }
+    .title_nav_img{
+        margin: 0px 105px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .tasti_nav{
+        margin: 12px auto;
+    }
+    .title_nav_img{
+        margin: 0px 45px;
     }
 }
