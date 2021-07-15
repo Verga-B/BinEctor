@@ -9,7 +9,6 @@ body{
 }
 
 /* NAVIGAZIONE & HEADER */
-
 nav{
     width: 100%;
     background-color: rgb(26, 26, 26);
@@ -18,15 +17,14 @@ nav{
 }
 
 .title_nav{
-    margin: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: auto;
 }
 
 .title_nav_img{
     height: 100px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 8%;
-    margin-right: auto;
 }
 
 .tasti_nav{
@@ -116,14 +114,14 @@ h2{
 
 h3{
     margin: 30px;
-}
-.foto{
     text-align: center;
     font-size: 30px;
 }
 
+.NOME{
+    font-size: 20px;
+}
 /* SEZIONI */
-
 
 p{
     text-align: center;
@@ -154,6 +152,10 @@ p{
     height: 120px;
     margin: auto;
 }
+strong{
+    font-weight: 700;
+    margin-top: 15px;
+}
 
 /* MAPPA */
 .sez_mappa{
@@ -162,8 +164,8 @@ p{
 
 #map {
     margin: 5% auto;
-    width: 700px;
-    height: 500px;
+    width: 80%;
+    height: 650px;
 }
 
 /* Nuvola Marker  */
@@ -230,45 +232,12 @@ footer:hover{
     }
 }
 
-/* BARRA NAVIGAZIONE */
-@media screen and (max-width: 660px) {
-    .tasti_nav{
+/* NAV */
+@media screen and (max-width: 669px) {
+    .title_nav{
         margin: auto;
     }
-    .title_nav_img{
-        margin: 0px 45px;
-    }
-}
-
-@media screen and (max-width: 640px) {
     .tasti_nav{
         margin: auto;
-    }
-    .title_nav_img{
-        margin: auto;
-    }
-}
-@media screen and (max-width: 540px) {
-    .tasti_nav{
-        margin: 12px auto;
-    }
-    .title_nav_img{
-        margin: 0px 135px;
-    }
-}
-@media screen and (max-width: 450px) {
-    .tasti_nav{
-        margin: 12px auto;
-    }
-    .title_nav_img{
-        margin: 0px 105px;
-    }
-}
-@media screen and (max-width: 350px) {
-    .tasti_nav{
-        margin: 12px auto;
-    }
-    .title_nav_img{
-        margin: 0px 45px;
     }
 }

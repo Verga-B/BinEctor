@@ -1,6 +1,6 @@
 TODO:
-1.Sistema navbar --> problema <a> logo
-2.Crea pagina "Chi Siamo?"
+1.Sistema navbar --> problema <a> logo - V
+2.Crea pagina "Chi Siamo?" - V
 3.Riordina e rinomina foto (con la via in cui si trovano i cestini)
 4.Crea pagina "Galleria"
 5.Segna markers sulla mappa
