@@ -1,5 +1,3 @@
-import "http://code.jquery.com/jquery-1.10.2.js"
-
 function fullboximg(a, b, c, d, e){
     winheight = $(window).height();
     ratio = b/c;
@@ -12,4 +10,4 @@ function fullboximg(a, b, c, d, e){
     $('div#fullbox').click(function(){
     $(this).fadeOut();
     });
-}
+} 

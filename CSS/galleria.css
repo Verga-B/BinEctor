@@ -1,0 +1,28 @@
+.galleria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+
+img.title_nav_img{
+    height: 100px;
+    width: 100%;
+    box-shadow: none;
+}
+
+
+
+picture{
+    margin: auto;
+}
+
+.img_galleria{
+    height: 250px;
+    width: 200px;
+    margin: 15px;
+    box-shadow: green 0px 0px 5px;
+}
+
+.img_galleria:hover{
+    cursor: zoom-in;
+}
