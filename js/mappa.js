@@ -34,6 +34,8 @@ function initMap() {
         [{ lat: 45.497366, lng: 9.645103 }, "../immagini/Cestini/26.jpeg"],
         [{ lat: 45.497739, lng: 9.645193 }, "../immagini/Cestini/27.jpeg"],
         [{ lat: 45.500600, lng: 9.645302 }, "../immagini/Cestini/28.jpeg"],
+        [{ lat: 45.491543, lng: 9.640485 }, "../immagini/Cestini/29.jpeg"],
+        [{ lat: 45.498740, lng: 9.638440 }, "../immagini/Cestini/30.jpeg"],
       ];
     // Create an info window to share between markers.
     const infoWindow = new google.maps.InfoWindow();
